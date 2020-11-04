@@ -1,0 +1,106 @@
+section {
+    margin: 50px 0 50px 0;
+}
+
+form {
+    width: 60%;
+    margin-left: 20%;
+    border: solid 2px red;
+    padding: 30px 30px 30px 30px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+    font-size: 19px;
+    background: rgb(235, 232, 232);
+}
+
+.form-check-label {
+    font-size: 16px;
+}
+
+#log {
+    width: 22%;
+    margin-left: 39%;
+    font-size: 18px;
+}
+
+span {
+    color: rgb(43, 138, 43);
+}
+
+form p a {
+    font-size: 16px;
+}
+
+.valid {
+    display: none;
+    color: red;
+    font-size: 16px;
+}
+
+input {
+    border-color: lightgray;
+}
+
+#log:disabled {
+    opacity: 0.9;
+}
+
+#policy {
+    padding: 5px
+}
+
+#processing {
+    padding: 5px
+}
+
+@media screen and (max-width: 992px) {
+    form {
+        width: 80%;
+        margin-left: 10%;
+    }
+    #log {
+        width: 28%;
+        margin-left: 36%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    form {
+        width: 100%;
+        margin-left: 0;
+    }
+    #log {
+        width: 34%;
+        margin-left: 33%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    form {
+        padding: 30px 30px 30px 30px;
+    }
+    form h1 {
+        font-size: 24px;
+    }
+    form label {
+        font-size: 16px;
+    }
+    .form-check-label {
+        font-size: 13px;
+    }
+    #log {
+        width: 40%;
+        margin-left: 30%;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #log {
+        width: 50%;
+        margin-left: 25%;
+        font-size: 15px;
+    }
+}

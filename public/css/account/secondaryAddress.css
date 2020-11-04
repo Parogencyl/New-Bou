@@ -1,0 +1,232 @@
+#center p {
+    margin-bottom: 0;
+}
+
+.emailAddress {
+    color: rgb(65, 65, 65);
+    padding: 10px 0 20px 15px;
+}
+
+#secondaryEmail {
+    padding-bottom: 10px;
+}
+
+.blockTitle {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.blockData form p {
+    font-size: 15px;
+    color: gray;
+    text-align: justify;
+    margin: 8px 5%;
+}
+
+.change {
+    color: rgb(161, 26, 26);
+    margin-left: 20px;
+}
+
+.change:nth-child(2) {
+    margin-left: 30px;
+}
+
+.change:hover {
+    cursor: pointer;
+}
+
+#addEmailBlock {
+    display: block;
+}
+
+#addEmail input {
+    width: 60%;
+    padding: 8px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    border: solid 1px rgb(77, 77, 77);
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+#addEmail button {
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(168, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+
+.valid {
+    display: none;
+    color: red;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+
+/* Change window */
+
+#changingForm {
+    width: 35%;
+    height: auto;
+    padding: 20px 30px;
+    background-color: rgb(240, 240, 240);
+    font-family: 'Trebuchet MS';
+    display: none;
+    position: fixed;
+    left: 32.5%;
+    top: 0;
+    box-shadow: 0 0 20px 10px rgb(83, 83, 83);
+    z-index: 2;
+    border-radius: 5px;
+    border: 1px solid rgb(95, 95, 95);
+}
+
+#changingForm h2 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+#changingForm fieldset {
+    display: block;
+    padding: 2px 5px;
+    background-color: #fff;
+    border: solid 2px gray;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+#changingForm fieldset legend {
+    width: auto;
+    padding: 0 5px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+#changingForm fieldset input {
+    border: 0;
+    padding-left: 10px;
+    font-size: 21px;
+    width: 97%;
+}
+
+#changingForm fieldset input:focus {
+    border: none;
+    outline: none;
+}
+
+#changingForm fieldset:focus-within {
+    border: solid 2px rgb(63, 63, 63);
+}
+
+#changingForm div label {
+    width: 100%;
+    font-size: 17px;
+}
+
+#changingForm div:nth-last-child(1) {
+    margin-bottom: 10px;
+    width: 50%;
+    float: left;
+}
+
+#changingForm div:nth-last-child(2) {
+    margin-bottom: 10px;
+    width: 50%;
+    float: left;
+}
+
+#changingForm #cancel {
+    background-color: rgb(150, 22, 22);
+    color: white;
+    font-size: 16px;
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+#changingForm #submit {
+    background-color: rgb(38, 122, 35);
+    color: white;
+    font-size: 16px;
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 5px;
+    padding: 10px 20px;
+    float: right;
+    margin-top: 10px;
+}
+
+#changingForm div:nth-last-child(1) {
+    margin: 0;
+    margin: auto;
+}
+
+#changingForm .valid {
+    display: none;
+    color: red;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1150px) {
+    #changingForm {
+        width: 50%;
+        left: 25%;
+    }
+    #changingForm h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #changingForm {
+        width: 60%;
+        left: 20%;
+    }
+    #changingForm h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #changingForm {
+        width: 70%;
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #changingForm {
+        width: 85%;
+        left: 7.5%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #changingForm {
+        width: 85%;
+        left: 7.5%;
+    }
+    #changingForm div label {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #changingForm {
+        width: 90%;
+        left: 5%;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    #changingForm {
+        position: absolute;
+        margin-top: 200px;
+    }
+}

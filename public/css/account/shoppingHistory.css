@@ -1,0 +1,218 @@
+.blockData {
+    background-color: rgb(251, 255, 249);
+    box-shadow: 0 0 6px 1px rgb(201, 218, 193);
+    border-radius: 5px;
+    height: 210px;
+    margin-left: 3%;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 100%;
+    animation-duration: 600ms;
+}
+
+h3 {
+    padding: 0px 0 5px 3%;
+}
+
+#center p {
+    margin-bottom: 0;
+}
+
+.dateOfBuy {
+    width: auto;
+    float: left;
+}
+
+.buyDate {
+    font-weight: bold;
+}
+
+.status {
+    width: auto;
+    float: right;
+}
+
+.boughtProduct {
+    clear: both;
+    margin-top: 40px;
+    height: 90px;
+    line-height: 80px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    margin-bottom: 15px;
+}
+
+.boughtProduct img {
+    height: 70px;
+    width: 70px;
+    float: left;
+}
+
+.nameOfProduct {
+    margin-left: 30px;
+    font-size: 20px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: middle;
+    width: auto;
+    float: right;
+    color: #28a745;
+}
+
+#center a {
+    text-decoration: none;
+    color: #b93b48;
+}
+
+.details {
+    text-decoration: none;
+    font-weight: 550;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.rateProduct {
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: 550;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.details:hover {
+    color: #9b2d38;
+    cursor: pointer;
+}
+
+.rateProduct:hover {
+    color: #9b2d38;
+    cursor: pointer;
+}
+
+.detailsInfo {
+    height: 140px;
+    color: rgb(70, 70, 70);
+    float: left;
+    width: 50%;
+}
+
+.title {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.address span {
+    margin-left: 20px;
+}
+
+.detailsNumber {
+    height: 80px;
+    color: rgb(70, 70, 70);
+    float: left;
+    width: 50%;
+}
+
+.phoneNumber span {
+    margin-left: 20px;
+}
+
+.infoBlock {
+    width: 100%;
+    height: 140px;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.opinion span i {
+    width: 50px;
+    color: rgb(233, 212, 30);
+    text-shadow: 0 0 1px rgb(2, 2, 2);
+}
+
+#center .opinion .title {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    padding-bottom: 15px;
+}
+
+form textarea {
+    width: 100%;
+    border: solid 1px rgb(141, 141, 141);
+    border-radius: 5px;
+    padding: 10px;
+    height: auto;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 0 1px 1px black;
+}
+
+form button {
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(168, 151, 0);
+    color: white;
+    font-weight: bold;
+}
+
+@keyframes open {
+    0% {
+        height: 210px;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+@keyframes close {
+    0% {
+        height: 100%;
+    }
+    100% {
+        height: 210px;
+    }
+}
+
+@keyframes open2 {
+    0% {
+        height: 210px;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+@keyframes close2 {
+    0% {
+        height: 100%;
+    }
+    100% {
+        height: 210px;
+    }
+}
+
+#footer {
+    width: 100%;
+    height: 180px;
+    margin-top: -180px;
+}
+
+@media screen and (max-width: 576px) {
+    .detailsNumber {
+        float: right;
+        width: 40%;
+    }
+}

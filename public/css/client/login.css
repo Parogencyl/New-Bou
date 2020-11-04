@@ -1,0 +1,148 @@
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+form {
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 25%;
+    border: solid 2px green;
+    padding: 30px 40px 30px 40px;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS";
+    font-size: 19px;
+    background-color: rgb(251, 255, 249);
+    box-shadow: 0 0 6px 1px rgb(201, 218, 193);
+    height: 100%;
+}
+
+.form-check-label {
+    font-size: 16px;
+}
+
+#log {
+    width: 22%;
+    margin-left: 39%;
+    font-size: 18px;
+}
+
+form p {
+    font-size: 17px;
+}
+
+#content {
+    height: auto;
+}
+
+#container {
+    height: auto;
+}
+
+#footer {
+    clear: both;
+    position: relative;
+    width: 100%;
+    height: 180px;
+    margin-top: 170px;
+}
+
+/*
+@media screen and (max-height: 700px) {
+    #footer {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-height: 700px) {
+    #footer {
+        margin-top: -60px;
+    }
+}
+@media screen and (min-height: 800px) {
+    #footer {
+        margin-top: -120px;
+    }
+}
+@media screen and (min-height: 900px) {
+    #footer {
+        margin-top: -180px;
+    }
+    
+}
+*/
+
+@media screen and (max-width: 1500px) {
+    #footer {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footerBreak {
+        display: none;
+    }
+    #footer {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    form {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    form {
+        width: 100%;
+        margin-left: 0;
+    }
+    #log {
+        width: 28%;
+        margin-left: 36%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    form {
+        padding: 30px 30px 30px 30px;
+    }
+    form h1 {
+        font-size: 24px;
+    }
+    form label {
+        font-size: 16px;
+    }
+    .form-check-label {
+        font-size: 13px;
+    }
+    #log {
+        width: 40%;
+        margin-left: 30%;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    #footer {
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 682px) {
+    #footer {
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #footer {
+        height: 400px;
+    }
+}

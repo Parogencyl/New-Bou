@@ -1,0 +1,355 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#content {
+    min-height: 100%;
+}
+
+section {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    font-family: "Trebuchet MS";
+    min-height: 100%;
+    float: left;
+}
+
+#summary {
+    width: 430px;
+    height: 350px;
+    box-shadow: 0 0 3px 1px rgb(73, 73, 73);
+    background-color: #fff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+    float: right;
+    border-radius: 2px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#summary h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#text1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#line {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(42, 179, 24);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#summary p span {
+    display: block;
+    float: right;
+    font-size: 22px;
+}
+
+#buy {
+    margin-top: 15px;
+    width: 100%;
+    height: 55px;
+    border: none;
+    background-color: rgb(42, 179, 24);
+    color: white;
+    transition: 0.3s;
+}
+
+#buy:hover {
+    background-color: rgb(42, 161, 26);
+}
+
+section h1 {
+    margin-bottom: 20px;
+}
+
+section h1 i {
+    font-size: 35px;
+}
+
+#empty {
+    font-size: 22px;
+    text-align: center;
+    background-color: rgb(251, 255, 249);
+    box-shadow: 0 0 6px 1px rgb(201, 218, 193);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 30px;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-left: 10%;
+}
+
+#empty p i {
+    font-size: 55px;
+}
+
+#products {
+    width: 60%;
+    height: auto;
+    float: left;
+}
+
+.blockData {
+    background-color: rgb(251, 255, 249);
+    box-shadow: 0 0 6px 1px rgb(201, 218, 193);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 30px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.blockData:nth-last-child(1) {
+    margin-bottom: 40px;
+}
+
+.photo {
+    width: 180px;
+    height: 180px;
+    float: left;
+}
+
+.shoesPhoto {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    margin-left: 30px;
+    width: auto;
+    height: 100%;
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+.name,
+.prize,
+.size {
+    font-weight: 400;
+}
+
+.modified {
+    float: right;
+}
+
+.modified button {
+    border: none;
+    background-color: transparent;
+    vertical-align: middle;
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+    font-size: 16px;
+}
+
+.modified button:active {
+    border: none;
+}
+
+.modified button i {
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.modified .mod {
+    right: 150px;
+}
+
+.modified button:nth-child(2):hover {
+    color: rgb(158, 15, 15);
+}
+
+.modified input {
+    position: absolute;
+    top: 97px;
+    left: 325px;
+    width: 60px;
+}
+
+.inputSize {
+    display: none;
+}
+
+#footer {
+    width: 100%;
+    height: 180px;
+    margin-top: -180px;
+    clear: both;
+}
+
+#summary a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 1300px) {
+    #summary {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    #summary {
+        width: 340px;
+    }
+    section {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #empty {
+        width: 90%;
+        margin-left: 5%;
+    }
+    #summary {
+        width: 500px;
+        position: absolute;
+        margin-top: 270px;
+        margin-left: 50%;
+        transform: translateX(-52.5%);
+    }
+    #products {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 380px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #summary {
+        margin-top: 290px;
+    }
+    #products {
+        margin-top: 370px;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #summary {
+        width: 350px;
+        margin-top: 270px;
+    }
+    #products {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 360px;
+    }
+    .photo {
+        width: 50%;
+        height: auto;
+        margin: 0 25%;
+        float: left;
+        text-align: center;
+    }
+    .shoesPhoto {
+        width: 180px;
+        height: 180px;
+    }
+    .info {
+        margin-left: 10%;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .modified {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 30px;
+        height: 0;
+    }
+    .modified button {
+        position: relative;
+        right: 0;
+        text-align: center;
+    }
+    .modified button:nth-child(1) {
+        right: 0px;
+        float: left;
+        width: 40%;
+        margin-left: 10%;
+    }
+    .modified button:nth-child(2) {
+        float: left;
+        width: 40%;
+    }
+    .blockData {
+        padding: 20px;
+    }
+    .modified input {
+        top: 267px;
+        left: 57%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #summary {
+        margin-top: 300px;
+    }
+    h1 {
+        text-align: center;
+    }
+    .modified input {
+        left: 58%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #summary {
+        margin-top: 340px;
+    }
+    .modified input {
+        left: 60%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #summary {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footerBreak {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 682px) {
+    #footer {
+        height: 230px;
+        margin-top: -230px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #footer {
+        height: 400px;
+        margin-top: -400px;
+    }
+}

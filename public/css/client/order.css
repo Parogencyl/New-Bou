@@ -1,0 +1,393 @@
+#products {
+    width: 60%;
+    margin-left: 20%;
+    height: auto;
+    float: left;
+}
+
+.blockData {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+#summary {
+    width: 450px;
+    position: initial;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: -10px;
+    margin-bottom: 30px;
+    float: left;
+    height: 260px;
+}
+
+h1 {
+    padding: 0px 0 5px 15%;
+}
+
+h2 {
+    color: rgb(40, 138, 27);
+}
+
+#products p {
+    margin-bottom: 0;
+    padding-left: 15px;
+    color: rgb(151, 151, 151);
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+#changeTwoAddress {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    text-align: center;
+    cursor: pointer;
+}
+
+span {
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.change {
+    color: rgb(161, 26, 26);
+}
+
+.change:hover {
+    cursor: pointer;
+}
+
+p span {
+    color: black;
+    padding-top: 0;
+    padding-left: 5px;
+}
+
+.addressBlock {
+    float: left;
+}
+
+.blockData:nth-last-child(1) {
+    height: 200px;
+}
+
+#products .blockData:nth-of-type(1) .title:nth-of-type(1) {
+    padding-top: 0;
+}
+
+#products .blockData:nth-of-type(2) .title {
+    padding-top: 0;
+}
+
+#transfers {
+    height: 300px;
+}
+
+#transfers h4 {
+    margin-bottom: 0;
+}
+
+#transfers p {
+    padding: 15px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+#transfers p:nth-last-child(1) {
+    border: none;
+}
+
+#transfers img {
+    height: 50px;
+    width: 90px;
+    margin-left: 10px;
+}
+
+#transfers .topForm {
+    width: auto;
+}
+
+#transfers span {
+    color: black;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1250px) {
+    section {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #summary {
+        width: 500px;
+        position: initial;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: -10px;
+        margin-bottom: 30px;
+        float: left;
+    }
+    #products {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    h3 {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #changeTwoAddress {
+        left: 43%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .blockData:nth-last-child(1) {
+        height: 380px;
+    }
+    .addressBlock:nth-last-child(1) {
+        margin-top: 60px;
+    }
+    #products .addressBlock p {
+        padding-top: 0px;
+    }
+    #address {
+        padding-top: 0px;
+    }
+    #summary {
+        width: 350px;
+    }
+    #changeTwoAddress {
+        left: 35%;
+        top: 44%;
+    }
+    #transfers span {
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    #transfers {
+        height: 400px;
+    }
+    #transfers p {
+        padding: 10px;
+    }
+    #transfers span:nth-of-type(3) {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #summary {
+        width: 300px;
+    }
+}
+
+
+/* 
+
+
+
+
+Formularz 
+
+
+
+
+*/
+
+#formChange form {
+    width: 35%;
+    height: auto;
+    padding: 20px 30px;
+    background-color: rgb(240, 240, 240);
+    font-family: 'Trebuchet MS';
+    display: none;
+    position: fixed;
+    left: 32.5%;
+    top: 0;
+    box-shadow: 0 0 20px 10px rgb(83, 83, 83);
+    z-index: 2;
+    border-radius: 5px;
+    border: 1px solid rgb(95, 95, 95);
+}
+
+#formChange form h2 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+#formChange form h3 {
+    margin-top: 10px;
+}
+
+#formChange form fieldset {
+    display: block;
+    padding: 2px 5px;
+    background-color: #fff;
+    border: solid 2px gray;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+#formChange form fieldset legend {
+    width: auto;
+    padding: 0 5px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+#formChange form fieldset input {
+    border: 0;
+    padding-left: 10px;
+    font-size: 21px;
+    width: 97%;
+}
+
+#formChange form fieldset input:focus {
+    border: none;
+    outline: none;
+}
+
+#formChange fieldset:focus-within {
+    border: solid 2px rgb(63, 63, 63);
+}
+
+#formChange form div label {
+    width: 100%;
+    font-size: 17px;
+}
+
+#formChange form div:nth-last-child(1) {
+    margin-bottom: 10px;
+    width: 50%;
+    float: left;
+}
+
+#formChange form div:nth-last-child(2) {
+    margin-bottom: 10px;
+    width: 50%;
+    float: left;
+}
+
+#formChange form #cancel {
+    background-color: rgb(150, 22, 22);
+    color: white;
+    font-size: 16px;
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+#formChange form #submit {
+    background-color: rgb(38, 122, 35);
+    color: white;
+    font-size: 16px;
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 5px;
+    padding: 10px 20px;
+    float: right;
+    margin-top: 10px;
+}
+
+#formChange form div:nth-last-child(1) {
+    margin: 0;
+    margin: auto;
+}
+
+#formChange input[type="radio"] {
+    width: 15px;
+    height: 15px;
+}
+
+#formChange input[type="radio"]:hover {
+    border: 1px solid red;
+}
+
+#formChange .valid {
+    display: none;
+    color: red;
+    font-size: 16px;
+}
+
+#formChange #validRadio {
+    display: none;
+    color: red;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1150px) {
+    #formChange form {
+        width: 50%;
+        left: 25%;
+    }
+    #formChange form h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #formChange form {
+        width: 60%;
+        left: 20%;
+    }
+    #formChange h3 {
+        padding: 0;
+        margin-top: 0;
+    }
+    #formChange form h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #formChange form {
+        width: 70%;
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #formChange form {
+        width: 85%;
+        left: 7.5%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #formChange form {
+        width: 85%;
+        left: 7.5%;
+    }
+    #formChange form h3 {
+        font-size: 22px;
+    }
+    #formChange form div label {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #formChange form {
+        width: 90%;
+        left: 5%;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    #formChange form {
+        position: absolute;
+        margin-top: 200px;
+    }
+}

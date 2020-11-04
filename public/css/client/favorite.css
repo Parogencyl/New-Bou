@@ -1,0 +1,302 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 30px;
+    font-family: "Trebuchet MS";
+    height: auto;
+}
+
+.blockData {
+    background-color: rgb(251, 255, 249);
+    box-shadow: 0 0 6px 1px rgb(201, 218, 193);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+h1 {
+    padding: 0px 0 5px 3%;
+}
+
+#empty {
+    font-size: 22px;
+    text-align: justify;
+    background-color: rgb(251, 255, 249);
+    box-shadow: 0 0 6px 1px rgb(201, 218, 193);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 30px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+#empty p {
+    margin-bottom: 0;
+}
+
+#empty p i {
+    font-size: 55px;
+}
+
+.images {
+    width: 45%;
+    height: 370px;
+    float: left;
+    margin-right: 5%;
+}
+
+.imagesList {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.imageShow {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+ul {
+    padding: 0;
+    padding-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+li img {
+    height: 100px;
+    width: 24%;
+    box-sizing: border-box;
+    padding: 0 0.5%;
+    border-radius: 5px;
+}
+
+li img:hover {
+    border: 1px solid rgb(170, 170, 170);
+    cursor: pointer;
+}
+
+.imageShow img {
+    margin-left: 10%;
+    width: 80%;
+    height: 270px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 2px rgb(233, 233, 233);
+    border-radius: 5px;
+}
+
+.imageShow img:hover {
+    cursor: pointer;
+}
+
+.information {
+    width: 50%;
+    float: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+.priceOfShoes {
+    font-size: 25px;
+    text-align: center;
+}
+
+del {
+    margin-left: 20px;
+    font-size: 0.8em;
+    color: black;
+}
+
+.buy {
+    text-align: center;
+    color: white;
+    padding: 7px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 1px solid rgb(42, 129, 30);
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.buy a {
+    text-decoration: none;
+    color: white;
+}
+
+.buy a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.buy:hover {
+    opacity: 0.93;
+    cursor: pointer;
+    color: white;
+}
+
+.favoriteButton {
+    text-align: center;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 20px 0 10px 0;
+    background-color: rgb(58, 58, 58);
+    width: 35%;
+    margin-left: 32.5%;
+    color: white;
+}
+
+.favoriteButton:hover {
+    opacity: 0.93;
+    cursor: pointer;
+}
+
+.favoriteButton i {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.description {
+    text-align: justify;
+    font-size: 17px;
+}
+
+#content {
+    min-height: 100%;
+}
+
+#footer {
+    width: 100%;
+    height: 180px;
+    margin-top: -180px;
+    clear: both;
+}
+
+@media screen and (max-width: 1300px) {
+    .priceOfShoes {
+        margin-bottom: 5px;
+    }
+    .favoriteButton {
+        margin-top: 10px;
+    }
+    li img {
+        width: 23.8%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    section {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .buy {
+        margin-top: 0;
+    }
+    .description {
+        margin-bottom: 5px;
+    }
+    li img {
+        width: 23.5%;
+        height: 95px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .images {
+        width: 80%;
+        margin-left: 10%;
+        height: 340px;
+    }
+    .imageShow img {
+        height: 220px;
+    }
+    li img {
+        width: 23.5%;
+        height: 90px;
+    }
+    .buy {
+        margin-top: 0;
+    }
+    .description {
+        margin-bottom: 5px;
+    }
+    .information {
+        width: 100%;
+    }
+    .buy {
+        margin-top: 20px;
+    }
+    .priceOfShoes {
+        margin-bottom: 10px;
+    }
+    .favoriteButton {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .images {
+        width: 85%;
+        margin-left: 7.5%;
+        height: 350px;
+    }
+    .imageShow img {
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .images {
+        width: 95%;
+        margin-left: 2.5%;
+        height: 350px;
+    }
+    .imageShow img {
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footerBreak {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 682px) {
+    #footer {
+        height: 230px;
+        margin-top: -230px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #footer {
+        height: 400px;
+        margin-top: -400px;
+    }
+}

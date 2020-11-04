@@ -1,0 +1,125 @@
+i {
+    font-size: 40px;
+}
+
+section {
+    overflow-y: scroll;
+    height: 500px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+section::-webkit-scrollbar {
+    display: none;
+}
+
+section p {
+    font-family: 'Trebuchet MS';
+}
+
+.clientOpinion {
+    border-left: 2px solid rgb(105, 105, 105);
+    padding-left: 10px;
+    margin: 20px 0;
+}
+
+.opinionTitle {
+    margin-bottom: 0;
+}
+
+.opinionTitle .userName {
+    font-size: 21px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(167, 22, 22);
+}
+
+.opinionTitle .opinionDate {
+    font-weight: 18px;
+    color: rgb(139, 139, 139);
+}
+
+.opinionProduct {
+    margin-bottom: 10px;
+}
+
+.opinionProduct .shoesName {
+    font-size: 21px;
+    color: rgb(33, 126, 33);
+}
+
+.opinionProduct i {
+    font-size: 21px;
+    color: rgb(68, 68, 68);
+}
+
+.opinionText {
+    font-size: 18px;
+    color: rgb(78, 78, 78);
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    section {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .opinionTitle .userName {
+        font-size: 19px;
+    }
+    .opinionTitle .opinionDate {
+        font-weight: 16px;
+    }
+    .opinionProduct .shoesName {
+        font-size: 19px;
+    }
+    .opinionProduct i {
+        font-size: 19px;
+    }
+    .opinionText {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        width: 85%;
+        margin-left: 7.5%;
+    }
+    .opinionTitle .userName {
+        font-size: 18px;
+    }
+    .opinionTitle .opinionDate {
+        font-weight: 15px;
+    }
+    .opinionProduct .shoesName {
+        font-size: 18px;
+    }
+    .opinionProduct i {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .opinionTitle .userName {
+        font-size: 17px;
+    }
+    .opinionTitle .opinionDate {
+        font-weight: 14px;
+    }
+    .opinionProduct .shoesName {
+        font-size: 17px;
+    }
+    .opinionProduct i {
+        font-size: 17px;
+    }
+    .opinionText {
+        font-size: 15px;
+    }
+}

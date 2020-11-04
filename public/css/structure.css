@@ -1,0 +1,73 @@
+#navbar1 {
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+}
+
+i {
+    font-size: 30px;
+}
+
+#account {
+    border-right: 2px solid gray;
+}
+
+#favorite {
+    border-right: 2px solid gray;
+}
+
+#navbar2 {
+    margin: 0;
+    margin-top: 10px;
+    box-shadow: 1px 5px 8px 1px gray;
+}
+
+.secondMenu {
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.secondMenu:hover {
+    text-shadow: 0 0 2px gray;
+}
+
+h2 {
+    font-family: 'Trebuchet MS';
+}
+
+footer {
+    background-color: rgb(90, 90, 90);
+    box-shadow: 5px 5px 4px 8px rgb(110, 110, 110);
+}
+
+footer p {
+    margin: 2px;
+}
+
+@media screen and (max-width: 992px) {
+    #sliderShoes .fa-arrow-circle-right {
+        margin-left: 100px;
+    }
+    .footerBreak {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #navbar1 {
+        font-size: 17px;
+    }
+    .secondMenu {
+        font-size: 17px;
+    }
+    i {
+        font-size: 23px;
+    }
+    footer {
+        text-align: center;
+    }
+}
